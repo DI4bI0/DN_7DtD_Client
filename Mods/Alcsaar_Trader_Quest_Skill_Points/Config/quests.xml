@@ -1,0 +1,94 @@
+<configs>
+	<!-- Credits to EpicSpire as the inspiration for this code -->
+	<!-- https://7daystodie.com/forums/showthread.php?130398-EpicSpire-s-A18-Modlets -->
+	<!-- Tier 1-6 Fetch Quests -->
+	<append xpath="/quests/quest[@id='tier1_fetch']">
+		<reward type="Item" id="Skill Book Scrap" value="2-4"/>
+	</append>
+	<append xpath="/quests/quest[@id='tier2_fetch']">
+		<reward type="Item" id="Skill Book Scrap" value="2-5"/>
+	</append>
+	<append xpath="/quests/quest[@id='tier3_fetch']">
+		<reward type="Item" id="Skill Book Scrap" value="3-5"/>
+	</append>
+	<append xpath="/quests/quest[@id='tier4_fetch']">
+		<reward type="Item" id="Skill Book Scrap" value="3-6"/>
+	</append>
+	<append xpath="/quests/quest[@id='tier5_fetch']">
+		<reward type="Item" id="Skill Book Scrap" value="4-6"/>
+	</append>
+	<append xpath="/quests/quest[@id='tier6_fetch']">
+		<reward type="Item" id="Skill Book Scrap" value="5-7"/>
+	</append>
+	
+	<!-- Tier 1-6 Clear Quests -->
+	<append xpath="/quests/quest[@id='tier1_clear']">
+		<reward type="Item" id="Skill Book Scrap" value="2-4"/>
+	</append>
+	<append xpath="/quests/quest[@id='tier2_clear']">
+		<reward type="Item" id="Skill Book Scrap" value="2-5"/>
+	</append>
+	<append xpath="/quests/quest[@id='tier3_clear']">
+		<reward type="Item" id="Skill Book Scrap" value="3-5"/>
+	</append>
+	<append xpath="/quests/quest[@id='tier4_clear']">
+		<reward type="Item" id="Skill Book Scrap" value="3-6"/>
+	</append>
+	<append xpath="/quests/quest[@id='tier5_clear']">
+		<reward type="Item" id="Skill Book Scrap" value="4-7"/>
+	</append>
+	<append xpath="/quests/quest[@id='tier6_clear']">
+		<reward type="Item" id="Skill Book Scrap" value="5-7"/>
+	</append>
+	
+	<!-- Tier 2-6 Fetch & Clear Quests -->
+	<append xpath="/quests/quest[@id='tier2_fetch_clear']">
+		<reward type="Item" id="Skill Book Scrap" value="2-5"/>
+	</append>
+	<append xpath="/quests/quest[@id='tier3_fetch_clear']">
+		<reward type="Item" id="Skill Book Scrap" value="3-5"/>
+	</append>
+	<append xpath="/quests/quest[@id='tier4_fetch_clear']">
+		<reward type="Item" id="Skill Book Scrap" value="3-6"/>
+	</append>
+	<append xpath="/quests/quest[@id='tier5_fetch_clear']">
+		<reward type="Item" id="Skill Book Scrap" value="4-6"/>
+	</append>
+	<append xpath="/quests/quest[@id='tier6_fetch_clear']">
+		<reward type="Item" id="Skill Book Scrap" value="5-7"/>
+	</append>
+	
+	
+	<!-- Tier 1-2 Buried Supplies Quests -->
+	<append xpath="/quests/quest[@id='tier1_buried_supplies']">
+		<reward type="Item" id="Skill Book Scrap" value="2-4"/>
+	</append>
+	<append xpath="/quests/quest[@id='tier2_buried_supplies']">
+		<reward type="Item" id="Skill Book Scrap" value="2-5"/>
+	</append>
+	
+	<!-- Tier Completion Bonus -->
+	<append xpath="/quests/quest[@id='quest_tier1complete']">
+	<reward type="Item" id="Skill Book" count="1" chainreward="true" />
+	</append>
+	
+	<append xpath="/quests/quest[@id='quest_tier2complete']">
+		<reward type="Item" id="Skill Book" count="1" chainreward="true" />
+	</append>
+	
+	<append xpath="/quests/quest[@id='quest_tier3complete']">
+		<reward type="Item" id="Skill Book" count="1" chainreward="true" />
+	</append>
+	
+	<append xpath="/quests/quest[@id='quest_tier4complete']">
+		<reward type="Item" id="Skill Book" count="1" chainreward="true" />
+	</append>
+	
+	<append xpath="/quests/quest[@id='quest_tier5complete']">
+		<reward type="Item" id="Skill Book" count="1" chainreward="true" />
+	</append>
+	
+	<append xpath="/quests/quest[@id='quest_tier6complete']">
+		<reward type="Item" id="Skill Book" count="1" chainreward="true" />
+	</append>
+</configs>
