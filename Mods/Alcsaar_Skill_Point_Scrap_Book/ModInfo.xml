@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Alcsaar_Skill_Books" />
+		<Description value="Trader quests will now award skill book scraps which can be combined into a book that grants a skill point." />
+		<Author value="Alcsaar" />
+		<Version value="1.0" />
+	</ModInfo>
+</xml>

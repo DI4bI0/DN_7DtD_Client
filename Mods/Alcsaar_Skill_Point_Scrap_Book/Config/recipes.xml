@@ -1,0 +1,7 @@
+<configs>
+	<append xpath="/recipes">
+		<recipe name="Skill Book" count="1">
+		<ingredient name="Skill Book Scrap" count="5"/>
+		</recipe>
+	</append>
+</configs>

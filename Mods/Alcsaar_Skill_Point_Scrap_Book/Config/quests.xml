@@ -1,0 +1,17 @@
+<configs>
+	<append xpath="/quests">
+	<!-- Credits and a thank you to Laokia.  Their Laokia's Quest Tweaks mod was used as inspiration for this skill book item, and some of the mod code was reused in both items.xml and quests.xml -->
+		<quest id="quest_SkillBookReward">
+		<property name="group_name_key" value="quest_SkillBookReward" />
+		<property name="name_key" value="Skill Point Awarded" />
+		<property name="subtitle_key" value="Skill point added" />
+		<property name="description_key" value="Skill point added" />
+		<property name="icon" value="ui_game_symbol_map_bed" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy"/>
+		<property name="offer_key" value="You've earned a skill point!" />
+		<property name="shareable" value="false" />
+		<reward type="SkillPoints" value="1" />
+		</quest>
+	</append>
+</configs>
